@@ -350,7 +350,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                                 .start();
                         break;
                     case R.id.reportIssue:
-                        IssueReporterLauncher.forTarget("HeinrichReimer", "android-issue-reporter")
+                        IssueReporterLauncher.forTarget("JohnKal", "Notes")
                                 // [Recommended] Theme to use for the reporter.
                                 // (See #theming for further information.)
                                 .theme(R.style.Theme_App_Light)

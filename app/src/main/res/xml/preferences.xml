@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <MultiSelectListPreference
+        android:dialogTitle="@string/display_items"
+        android:key="display_views"
+        android:summary=""
+        android:title="@string/display_items_list"
+        android:entries="@array/display_views_list"
+        android:entryValues="@array/display_values_views_list"
+        android:defaultValue="@array/display_default_values_views_list"
+        />
+
+    <android.support.v7.preference.ListPreference
+        android:key="font_size"
+        android:title="@string/font_size"
+        android:defaultValue="medium"
+        android:entries="@array/font_size_text"
+        android:entryValues="@array/font_size_text_values"
+        android:summary="@string/font_size_summary"
+        />
+
+    <android.support.v7.preference.ListPreference
+        android:key="reminder_time"
+        android:title="@string/reminder_time_title"
+        android:defaultValue="10"
+        android:entries="@array/reminder_time_text"
+        android:entryValues="@array/reminder_time_text_values"
+        android:summary="@string/reminder_time_summary"
+        />
+
+    <android.support.v7.preference.CheckBoxPreference
+        android:key="fullscreen"
+        android:title="@string/fullscreen"
+        android:defaultValue="true"/>
+        />
+
+    <com.thebluealliance.spectrum.SpectrumPreferenceCompat
+        android:defaultValue="@color/redPastel"
+        android:key="default_color"
+        android:summary="@string/default_color_summary"
+        android:title="@string/default_color_title"
+        app:spectrum_colors="@array/list_colors_int"
+        app:spectrum_outlineWidth="1dp"/>
+
+</android.support.v7.preference.PreferenceScreen>

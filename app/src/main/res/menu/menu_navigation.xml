@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calendar"
+            android:title="@string/calendar"
+            app:actionLayout="@layout/calendar_reminders_text"
+            android:icon="@drawable/ic_calendar_clock_white_24dp"/>
+        <item
+            android:id="@+id/trash"
+            android:title="@string/trash"
+            android:icon="@drawable/ic_delete_white_24dp"/>
+        <item
+            android:id="@+id/backup"
+            android:title="@string/backup"
+            android:icon="@drawable/ic_content_save_white_24dp"/>
+        <item
+            android:id="@+id/restore"
+            android:title="@string/restore"
+            android:icon="@drawable/ic_backup_restore_white_24dp"/>
+
+        <item android:title="Extra Options">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/settings"
+                        android:title="@string/settings"
+                        android:icon="@drawable/ic_settings_white_24dp" />
+                    <item
+                        android:id="@+id/feedback"
+                        android:title="@string/feedback"
+                        android:icon="@drawable/ic_feedback_white_24dp" />
+                    <item
+                        android:id="@+id/reportIssue"
+                        android:title="@string/report_issue"
+                        android:icon="@drawable/ic_bug_report_white_24dp" />
+                    <item
+                        android:id="@+id/shareSocial"
+                        android:title="@string/share"
+                        android:icon="@drawable/ic_facebook_box_white_24dp" />
+                    <item
+                        android:id="@+id/rateApp"
+                        android:title="@string/rate"
+                        android:icon="@drawable/ic_star_white_24dp" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

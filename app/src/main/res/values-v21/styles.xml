@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">#FF7F50</item>
+        <item name="textColorError">@color/design_textinput_error_color_light</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge</item>
+
+        <item name="textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearanceSmall</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearanceSmall</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material </item>
+    </style>
+
+    <style name="AppTheme.Toolbar.SubTitle" parent="AppTheme.NoActionBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/design_textinput_error_color_light</item>
+        <item name="android:textStyle">italic</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+    </style>
+
+    <style name="Theme.App.Light" parent="Theme.IssueReporter.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue_ivy</item><!-- required -->
+        <item name="colorPrimaryDark">@color/blue_ivy</item><!-- required -->
+        <item name="colorAccent">@color/redPastel</item><!-- required -->
+    </style>
+
+</resources>

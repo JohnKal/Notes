@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_notes">
+        <item>Τίτλο</item>
+        <item>Περιγραφή</item>
+        <item>Ημερομηνία</item>
+        <item>Χρώμα</item>
+        <item>Ολοκλήρωση</item>
+    </string-array>
+
+    <string-array name="display_views_list">
+        <item>Τίτλος</item>
+        <item>Περιγραφή</item>
+        <item>Ημερομηνία</item>
+    </string-array>
+
+    <string-array name="font_size_text">
+        <item>Μικρό</item>
+        <item>Μεσαίο</item>
+        <item>Μεγάλο</item>
+    </string-array>
+
+    <string-array name="reminder_time_text">
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+
+    <string-array name="languages_text">
+        <item>Αγγλικά</item>
+        <item>Ελληνικά</item>
+    </string-array>
+
+</resources>

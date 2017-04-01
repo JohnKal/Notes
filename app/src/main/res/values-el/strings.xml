@@ -65,5 +65,7 @@
     <string name="title_error_msg">Ο τίτλος δεν μπορεί να ξεπερνάει τους 30 χαρακτήρες</string>
     <string name="title_missing_msg">Ο τίτλος είναι υποχρεωτικός</string>
     <string name="action_settings">Ρυθμίσεις</string>
+    <string name="device_offline">Η συσκευή βρίσκεται εκτός δικτύου</string>
+    <string name="connect_to_internet">Παρακαλώ συνδεθείτε στο ίντερνερτ προκειμένου να συνεχίσετε με την αναφορά σφαλμάτων.</string>
 
 </resources>

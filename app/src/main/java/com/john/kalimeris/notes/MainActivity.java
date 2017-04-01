@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                                     return true;
                                 }
                             })
-                            .positiveText(getResources().getString(R.string.choice))
+                            .positiveText(R.string.choice)
                             .show();
                 }
                 return false;
@@ -350,25 +350,32 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                                 .start();
                         break;
                     case R.id.reportIssue:
-                        IssueReporterLauncher.forTarget("JohnKal", "Notes")
-                                // [Recommended] Theme to use for the reporter.
-                                // (See #theming for further information.)
-                                .theme(R.style.Theme_App_Light)
-                                // [Optional] Auth token to open issues if users don't have a GitHub account
-                                // You can register a bot account on GitHub and copy ist OAuth2 token here.
-                                // (See #how-to-create-a-bot-key for further information.)
-                                .guestToken("80d7e9bf0fe5ab553fc7408f19255537da00099b")
-                                // [Optional] Force users to enter an email adress when the report is sent using
-                                // the guest token.
-                                .guestEmailRequired(true)
-                                // [Optional] Set a minimum character limit for the description to filter out
-                                // empty reports.
-                                .minDescriptionLength(20)
-                                // [Optional] Include other relevant info in the bug report (like custom variables)
-                                .putExtraInfo("Test 1", "Example string")
-                                // [Optional] Disable back arrow in toolbar
-                                .homeAsUpEnabled(true)
-                                .launch(MainActivity.this);
+                        if (Utils.isOnline(MainActivity.this)) {
+                            IssueReporterLauncher.forTarget("JohnKal", "Notes")
+                                    // [Recommended] Theme to use for the reporter.
+                                    // (See #theming for further information.)
+                                    .theme(R.style.Theme_App_Light)
+                                    // [Optional] Auth token to open issues if users don't have a GitHub account
+                                    // You can register a bot account on GitHub and copy ist OAuth2 token here.
+                                    // (See #how-to-create-a-bot-key for further information.)
+                                    .guestToken("")
+                                    // [Optional] Force users to enter an email adress when the report is sent using
+                                    // the guest token.
+                                    .guestEmailRequired(true)
+                                    // [Optional] Set a minimum character limit for the description to filter out
+                                    // empty reports.
+                                    .minDescriptionLength(20)
+                                    // [Optional] Disable back arrow in toolbar
+                                    .homeAsUpEnabled(true)
+                                    .launch(MainActivity.this);
+                        }
+                        else {
+                            new MaterialDialog.Builder(MainActivity.this)
+                                    .title(R.string.device_offline)
+                                    .content(R.string.connect_to_internet)
+                                    .positiveText(R.string.ok)
+                                    .show();
+                        }
                         break;
                     case R.id.shareSocial:
 

@@ -352,7 +352,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                     case R.id.reportIssue:
                         if (Utils.isOnline(MainActivity.this)) {
                             IssueReporterLauncher.forTarget("JohnKal", "Notes")
-                                    // [Recommended] Theme to use for the reporter.
+                                    // [Recommended] Theme to use for the reporter
                                     // (See #theming for further information.)
                                     .theme(R.style.Theme_App_Light)
                                     // [Optional] Auth token to open issues if users don't have a GitHub account

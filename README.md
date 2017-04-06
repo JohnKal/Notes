@@ -1,5 +1,5 @@
 # Notes
-###A **notes** app for **Android** :notebook_with_decorative_cover:
+### A **notes** app for **Android** :notebook_with_decorative_cover:
 
 ![screenshot1](screenshots/notes_screenshot1.png)
 ![screenshot2](screenshots/notes_screenshot2.png)
@@ -13,7 +13,7 @@
 * Pin the notes widget to homescreen
 
 
-##Build Notes from source
+### Build Notes from source
 
 to build notes you have to:
 

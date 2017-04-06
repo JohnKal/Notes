@@ -6,11 +6,12 @@
 ![screenshot3](screenshots/notes_screenshot3.png)
 
 
-:smile: With this app you can:
-* Easily manage and organize your notes
-* Add color to your notes for easy categorization
-* Add reminders to every note
-* Pin the notes widget to homescreen
+
+###### :smile: With this app you can:
+###### * Easily manage and organize your notes
+###### * Add color to your notes for easy categorization
+###### * Add reminders to every note
+###### * Pin the notes widget to homescreen
 
 
 ### Build Notes from source

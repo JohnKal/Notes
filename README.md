@@ -8,10 +8,10 @@
 
 
 ###### :smile: With this app you can:
-###### * Easily manage and organize your notes
-###### * Add color to your notes for easy categorization
-###### * Add reminders to every note
-###### * Pin the notes widget to homescreen
+ * Easily manage and organize your notes
+ * Add color to your notes for easy categorization
+ * Add reminders to every note
+ * Pin the notes widget to homescreen
 
 
 ### Build Notes from source
@@ -24,3 +24,15 @@ clone https://github.com/JohnKal/Notes.git
 cd Notes
 ./gradlew
 ```
+
+### License
+
+**Notes Android App Copyright 2017 John Kalimeris.**
+
+This program is free and open source: you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+[LICENSE](LICENSE)
+
+

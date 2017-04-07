@@ -1,6 +1,9 @@
 # Notes
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0) &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://gr.linkedin.com/pub/giannis-kalimeris/33/76a/240">
+ <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Giannis Kalimeris's profile on LinkedIn">
+</a>
 
 ### A **notes** app for **Android** :notebook_with_decorative_cover:
 
@@ -34,6 +37,4 @@ This program is free and open source: you can redistribute it and/or modify it u
 GNU General Public License as published by the Free Software Foundation,
 either version 3 of the License, or (at your option) any later version.
 
-[LICENSE](LICENSE) &nbsp;&nbsp; [![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)]()
-
-
+[LICENSE](LICENSE)

@@ -1,11 +1,9 @@
 # Notes
 ### A **notes** app for **Android** :notebook_with_decorative_cover:
 
-![screenshot1](screenshots/notes_screenshot1.png)
-![screenshot2](screenshots/notes_screenshot2.png)
-![screenshot3](screenshots/notes_screenshot3.png)
-
-
+![screenshot1](screenshots/screenshot1.png)[SPACE]
+![screenshot3](screenshots/screenshot3.png)
+![screenshot2](screenshots/screenshot2.png)[SPACE][SPACE][ENTER]
 
 ###### :smile: With this app you can:
  * Easily manage and organize your notes

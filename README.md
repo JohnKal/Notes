@@ -1,6 +1,7 @@
 # Notes
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0) &nbsp;&nbsp;&nbsp;&nbsp;
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+[![API](https://img.shields.io/badge/API-15%2B-red.svg?style=flat)](https://android-arsenal.com/api?level=15)&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://gr.linkedin.com/pub/giannis-kalimeris/33/76a/240">
  <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Giannis Kalimeris's profile on LinkedIn">
 </a>
@@ -15,7 +16,7 @@
  * Easily manage and organize your notes
  * Add color to your notes for easy categorization
  * Add reminders to every note
- * Pin the notes widget to homescreen
+ * Pin the app widget to homescreen
 
 
 ### Build Notes from source
